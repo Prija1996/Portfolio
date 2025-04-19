@@ -59,7 +59,8 @@ Voici les prochaines améliorations que je prévois d'apporter à ce projet. Ces
 - [ ] **Configuration de l'en-tête** : Résoudre le problème où l'en-tête n'est pas entièrement visible sur les petits écrans lorsque celle-ci est fixée.  
 - [ ] **Espacement entre l'en-tête et la présentation** : Ajouter un espacement par défaut pour améliorer l'ergonomie visuelle.  
 - [ ] **Défilement continu** : Implémenter un défilement fluide pour la section des logiciels ou technologies utilisées.  
-- [ ] **Modal "Voir plus"** : Corriger le comportement des modales (bulles) pour qu'elles s'adaptent correctement à la taille de la fenêtre (actuellement, il y a encore quelques bugs).  
+- [ ] **Modal "Voir plus"** : Corriger le comportement des modales (bulles) pour qu'elles s'adaptent correctement à la taille de la fenêtre (actuellement, il y a encore quelques bugs).
+- [ ] **Logiciel** : Ajouter une section dev quand ce site sera vraiment fini (Apprentissage HTML/CSS/Js pour l'instant) 
 - [ ] **Adaptation mobile complète** : Garantir que le site soit parfaitement responsive et fonctionnel sur tous les appareils mobiles.  
 - [ ] **Roadmap professionnelle** : Ajouter une timeline pour représenter les postes occupés selon les années.  
 - [ ] **Bouton "Télécharger CV"** : Intégrer un bouton permettant de télécharger facilement mon CV.  
