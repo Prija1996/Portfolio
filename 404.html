@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indisponible - Portfolio</title>
+  <style>
+    /* Variables CSS pour les couleurs */
+    :root {
+      --fond-clair: #F2EFE7; /* Fond clair */
+      --orange-doux: #FFA726; /* Orange doux pour les interactions */
+      --bleu-vert-doux: #9ACBD0; /* Bleu-vert doux */
+      --bleu-vert-foncé: #48A6A7; /* Bleu-vert foncé */
+      --bleu-profond: #006A71; /* Bleu profond */
+      --texte-sombre: #333333; /* Texte sombre pour contraste */
+    }
+
+    /* Style global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: var(--fond-clair);
+      color: var(--texte-sombre);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+      background: var(--bleu-vert-doux);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--bleu-profond);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: var(--orange-doux);
+      color: var(--texte-sombre);
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+    }
+
+    a.button:hover {
+      background-color: var(--bleu-vert-foncé);
+    }
+
+    a.button.home {
+      background-color: var(--bleu-profond);
+      color: white;
+    }
+
+    a.button.home:hover {
+      background-color: var(--bleu-vert-foncé);
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Je suis actuellement indisponible...</h1>
+    <p>
+      Désolé, je ne suis pas encore disponible pour collaborer car je travaille actuellement dans une autre entreprise.
+      Cependant, toutes les informations sur mes projets et compétences sont accessibles ici.
+    </p>
+    <div>
+      <a href="mailto:votre-email@example.com" class="button">Contactez-moi</a>
+      <a href="index.html" class="button home">Accueil</a>
+    </div>
+    <div class="emoji">👋</div>
+  </div>
+</body>
+</html>

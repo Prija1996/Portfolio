@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Roddy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- En-tête fixe -->
+    <header class="entete-fixe">
+        <div class="conteneur-logo">
+            <div class="icone"></div>
+            <h1></h1>
+        </div>
+        <nav class="liens-navigation">
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#logiciels">Logiciels</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Présentation -->
+    <section id="presentation" class="conteneur-section conteneur-presentation">
+        <div class="conteneur-presentation-interne">
+            <div class="conteneur-photo">
+                <img src="images/photo.jpg" alt="Votre photo" class="photo-profil">
+            </div>
+            <div class="conteneur-texte">
+                <h2>Présentation</h2>
+                <p>Concepteur de plans et apprenti développeur front-end, je combine expertise technique et passion pour l'automatisation des processus. Curieux et adaptable, j'aime relever des défis en explorant de nouvelles technologies.</p>
+                <input type="checkbox" id="bascule-modal-presentation" class="bascule-modal">
+                <label for="bascule-modal-presentation" class="bouton-action">En savoir plus</label>
+                <div class="superposition-modal">
+                    <div class="contenu-modal">
+                        <label for="bascule-modal-presentation" class="bouton-fermeture-modal">&times;</label>
+                        <h2>Présentation détaillée</h2>
+                        <p>Concepteur de plans et référent méthode, j'interviens dans la préparation de projets en assurant l'analyse des données pour garantir leur validité en production. Mon expertise s'étend à la création de supports de production (gabarits, palettes, consignes, checklists) ainsi qu'à l'automatisation et à l'optimisation des processus pour améliorer l'efficacité et la sécurité de la production.</p>
+                        <p>Par ailleurs, je suis actuellement apprenti en développement front-end web, explorant les technologies du web moderne pour enrichir mes compétences en développement et automatisation. Je possède également des compétences en analyse de données, me permettant d’extraire des informations pertinentes et d’optimiser les processus grâce à des décisions basées sur les données.</p>
+                        <p>Curieux et adaptable, j’aime étudier de nouvelles technologies et relever les défis en m’adaptant rapidement aux différentes situations qui se présentent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="conteneur-section">
+        <div class="conteneur-competences">
+            <h2>Mes Compétences</h2>
+            <div class="grille-competences">
+                <div class="carte-competence">
+                    <h3>Conception de Plans</h3>
+                    <p>Dessin technique et mise en plan selon les normes en vigueur.</p>
+                    <div class="barre-competence">
+                        <div class="progression" style="--pourcentage: 90%;"></div>
+                    </div>
+                </div>
+                <div class="carte-competence">
+                    <h3>Analyse de Données</h3>
+                    <p>Vérification de la complétude et de la qualité des données.</p>
+                    <div class="barre-competence">
+                        <div class="progression" style="--pourcentage: 85%;"></div>
+                    </div>
+                </div>
+                <div class="carte-competence">
+                    <h3>Création de Supports</h3>
+                    <p>Développement de gabarits, palettes, consignes et checklists.</p>
+                    <div class="barre-competence">
+                        <div class="progression" style="--pourcentage: 80%;"></div>
+                    </div>
+                </div>
+                <div class="carte-competence">
+                    <h3>Automatisation</h3>
+                    <p>Mise en place d'outils et d'approches facilitant les opérations.</p>
+                    <div class="barre-competence">
+                        <div class="progression" style="--pourcentage: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Logiciels -->
+    <section id="logiciels" class="conteneur-section">
+        <div class="conteneur-logiciels">
+            <h2>Logiciels</h2>
+            <div class="conteneur-logiciels-interne">
+                <div class="liste-logiciels">
+                    <div class="carte-logiciel">
+                        <div class="contenu-logiciel">
+                            <img src="images/gstarcad.png" alt="GstarCAD" class="icone-logiciel">
+                            <h3>GstarCAD</h3>
+                        </div>
+                    </div>
+                    <div class="carte-logiciel">
+                        <div class="contenu-logiciel">
+                            <img src="images/autocad.png" alt="AutoCAD Std" class="icone-logiciel">
+                            <h3>AutoCAD Std</h3>
+                        </div>
+                    </div>
+                    <div class="carte-logiciel">
+                        <div class="contenu-logiciel">
+                            <img src="images/autocad.png" alt="AutoCAD Architecture" class="icone-logiciel">
+                            <h3>AutoCAD Architecture</h3>
+                        </div>
+                    </div>
+                    <div class="carte-logiciel">
+                        <div class="contenu-logiciel">
+                            <img src="images/qgis.png" alt="QGIS" class="icone-logiciel">
+                            <h3>QGIS</h3>
+                        </div>
+                    </div>
+                    <div class="carte-logiciel">
+                        <div class="contenu-logiciel">
+                            <img src="images/viewer.png" alt="Viewer" class="icone-logiciel">
+                            <h3>Viewer</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="conteneur-section">
+        <div class="conteneur-projets">
+            <h2>Mes Projets</h2>
+            <div class="grille-projets">
+                <!-- Projet 1 -->
+                <div class="carte-projet">
+                    <h3>Réponse à un appel d'offres</h3>
+                    <p>J'ai réalisé un exercice technique pour répondre à un appel d'offres en créant des plans 2D précis à partir d'un nuage de points fourni par le client.</p>
+                    <input type="checkbox" id="bascule-modal-projet1" class="bascule-modal">
+                    <label for="bascule-modal-projet1" class="bouton-action">En savoir plus</label>
+                    <div class="superposition-modal">
+                        <div class="contenu-modal">
+                            <label for="bascule-modal-projet1" class="bouton-fermeture-modal">&times;</label>
+                            <h2>Réponse à un appel d'offres</h2>
+                            <p><strong>Contexte :</strong> Dans le cadre d’un appel d’offres pour un projet industriel, j’ai été chargé de réaliser un exercice technique pour démontrer ma capacité à créer des plans 2D précis à partir d’un nuage de points.</p>
+                            <p><strong>Méthodologie :</strong> J’ai nettoyé et filtré le nuage de points, extrait les dimensions clés, et créé un plan pilote conforme aux spécifications du client.</p>
+                            <p><strong>Résultats :</strong> Le plan respectait parfaitement les dimensions fournies, et l’automatisation a permis de gagner 20 % de temps sur la préparation des données.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 2 -->
+                <div class="carte-projet">
+                    <h3>Suivi en production</h3>
+                    <p>J'ai analysé un blocage en production lié à des données incomplètes et proposé une méthode adaptée pour résoudre le problème.</p>
+                    <input type="checkbox" id="bascule-modal-projet2" class="bascule-modal">
+                    <label for="bascule-modal-projet2" class="bouton-action">En savoir plus</label>
+                    <div class="superposition-modal">
+                        <div class="contenu-modal">
+                            <label for="bascule-modal-projet2" class="bouton-fermeture-modal">&times;</label>
+                            <h2>Suivi en production</h2>
+                            <p><strong>Contexte :</strong> Une équipe interne a rencontré un blocage en production lié à des données mal calibrées.</p>
+                            <p><strong>Méthodologie :</strong> J’ai recalibré le nuage de points à l’aide d’un script Python et mis à jour les gabarits pour mieux correspondre aux spécifications clients.</p>
+                            <p><strong>Résultats :</strong> La production a repris sans retard supplémentaire, et le taux d’erreurs a diminué de 25 %.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projet 3 -->
+                <div class="carte-projet">
+                    <h3>Innovation technologique</h3>
+                    <p>J'ai proposé une solution innovante pour rendre les plans 2D interactifs grâce à des outils web.</p>
+                    <input type="checkbox" id="bascule-modal-projet3" class="bascule-modal">
+                    <label for="bascule-modal-projet3" class="bouton-action">En savoir plus</label>
+                    <div class="superposition-modal">
+                        <div class="contenu-modal">
+                            <label for="bascule-modal-projet3" class="bouton-fermeture-modal">&times;</label>
+                            <h2>Innovation technologique</h2>
+                            <p><strong>Contexte :</strong> Un client souhaitait des plans 2D interactifs pour une visualisation dynamique.</p>
+                            <p><strong>Méthodologie :</strong> J’ai collaboré avec une équipe de développeurs pour créer un prototype de plan interactif.</p>
+                            <p><strong>Résultats :</strong> Le prototype a convaincu le client, qui a décidé de l’adopter pour ses futurs projets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="conteneur-section">
+        <div class="conteneur-contact">
+            <h2>Contactez-moi</h2>
+            <form class="formulaire-contact">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Écrivez votre message ici" rows="5" required></textarea>
+
+                <button type="submit" class="bouton-action">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="pied-de-page">
+        <div class="conteneur-footer">
+            <!-- Adresse -->
+            <div class="adresse">
+                <h3>Adresse</h3>
+                <p>
+                    LOT II T 101 Ampandrana - Est<br>
+                    Antananarivo - Analamanga - Madagascar
+                </p>
+            </div>
+
+            <!-- Réseaux sociaux dans la section Contact -->
+            <div class="reseaux-sociaux">
+                <h3>Contactez-moi</h3>
+                <div class="liste-reseaux">
+                    <a href="#" class="lien-reseau" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="lien-reseau" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="lien-reseau" aria-label="Email"><i class='bx bx-envelope'></i></a>
+                    <a href="https://github.com/Prija1996" class="lien-reseau" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="droits-auteur">&copy; 2025 Roddy RANDRIAMAMPIANINA</p>
+    </footer>
+</body>
+</html>
