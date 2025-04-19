@@ -104,6 +104,10 @@ header.entete-fixe {
     align-items: center;
 }
 
+.conteneur-texte h1 {
+    color: var(--orange-doux);
+}
+
 .conteneur-photo {
     flex: 1;
     min-width: 100px;
